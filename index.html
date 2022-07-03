@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeAPI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="nav-flex">
+                <div class="nav-icon">
+                    <img src="img/pokeapiicon.png" alt="">
+
+                </div>
+
+                <div class="nav-links">
+                    <a href="">Pokedéx</a>
+                    <a href="">Pokemons</a>
+                    <a href="">Tipos</a>
+
+                </div>
+
+            </div>
+
+        </nav>
+        
+
+    </header>
+
+
+
+
+    <main>
+        <section class="card-section">
+            <div class="card-section-flex">
+                <div class="card" id="firstPokeCard">
+                    <div class="imgBx">
+                      <img id="firstPokeImg">
+                    </div>
+                    <div class="contentBx">
+                      <h2 id="firstPoke"></h2>
+                      <div class="size">
+                        <h3>Abilities:</h3>
+                        <span id="firstPokeHability1"></span>
+                        <span id="firstPokeHability2"></span>
+          
+                      </div>
+                      <div class="color">
+                        <h3>Type:</h3>
+                        <span id="firstPokeType1"></span> 
+                        <span id="firstPokeType2"></span>
+                      </div>
+
+                      <div class="flexbx">
+                        <div>
+                          <h3>HP:</h3>
+                          <h2 id="firstPokeHp"></h2>
+                        </div>
+                        <div>
+                          <h3>Attack:</h3>
+                          <h2 id="firstPokeAttack"></h2>
+                        </div>
+  
+                        <div>
+                          <h3>Defense:</h3>
+                          <h2 id="firstPokeDefense"></h2>
+                        </div>
+  
+                        <div>
+                          <h3>SPAttack:</h3>
+                          <h2 id="firstPokeSPAttack"></h2>
+                        </div>
+  
+                        <div>
+                          <h3>SPDefense:</h3>
+                          <h2 id="firstPokeSPDefense"></h2>
+                        </div>
+  
+                        <div>
+                          <h3>Speed:</h3>
+                          <h2 id="firstPokeSpeed"></h2>
+                        </div>
+            
+                      </div>
+               
+                    </div>
+                  </div>
+
+                  <div class="card" id="secondPokeCard">
+                    <div class="imgBx">
+                      <img id="secondPokeImg">
+                    </div>
+                    <div class="contentBx">
+                      <h2 id="secondPoke"></h2>
+                      <div class="size">
+                        <h3>Abilities:</h3>
+                        <span id="secondPokeHability1"></span>
+                        <span id="secondPokeHability2"></span>
+          
+                      </div>
+                      <div class="color">
+                        <h3>Type:</h3>
+                        <span id="secondPokeType1"></span> 
+                        <span id="secondPokeType2"></span>
+                      </div>
+
+                      <div class="flexbx">
+                        <div>
+                          <h3>HP:</h3>
+                          <h2 id="secondPokeHp"></h2>
+                        </div>
+                        <div>
+                          <h3>Attack:</h3>
+                          <h2 id="secondPokeAttack"></h2>
+                        </div>
+  
+                        <div>
+                          <h3>Defense:</h3>
+                          <h2 id="secondPokeDefense"></h2>
+                        </div>
+  
+                        <div>
+                          <h3>SPAttack:</h3>
+                          <h2 id="secondPokeSPAttack"></h2>
+                        </div>
+  
+                        <div>
+                          <h3>SPDefense:</h3>
+                          <h2 id="secondPokeSPDefense"></h2>
+                        </div>
+  
+                        <div>
+                          <h3>Speed:</h3>
+                          <h2 id="secondPokeSpeed"></h2>
+                        </div>
+            
+                      </div>
+         
+                    </div>
+                  </div>
+
+                  <div class="card" id="thirdPokeCard">
+                    <div class="imgBx">
+                      <img id="thirdPokeImg">
+                    </div>
+                    <div class="contentBx">
+                      <h2 id="thirdPoke"></h2>
+                      <div class="size">
+                        <h3>Abilities:</h3>
+                        <span id="thirdPokeHability1"></span>
+                        <span id="thirdPokeHability2"></span>
+          
+                      </div>
+                      <div class="color">
+                        <h3>Type:</h3>
+                        <span id="thirdPokeType1"></span> 
+                        <span id="thirdPokeType2"></span>
+                      </div>
+
+                      <div class="flexbx">
+                      <div>
+                        <h3>HP:</h3>
+                        <h2 id="thirdPokeHp"></h2>
+                      </div>
+                      <div>
+                        <h3>Attack:</h3>
+                        <h2 id="thirdPokeAttack"></h2>
+                      </div>
+
+                      <div>
+                        <h3>Defense:</h3>
+                        <h2 id="thirdPokeDefense"></h2>
+                      </div>
+
+                      <div>
+                        <h3>SPAttack:</h3>
+                        <h2 id="thirdPokeSPAttack"></h2>
+                      </div>
+
+                      <div>
+                        <h3>SPDefense:</h3>
+                        <h2 id="thirdPokeSPDefense"></h2>
+                      </div>
+
+                      <div>
+                        <h3>Speed:</h3>
+                        <h2 id="thirdPokeSpeed"></h2>
+                      </div>
+          
+                    </div>
+                  </div>
+                    
+
+                    
+                  </div>
+
+                 
+
+            </div>
+
+
+            <div class="btnRefresh">
+              <button id="refresh">Atualizar</button>
+            </div>
+            
+            
+
+        </section>
+
+        
+
+
+
+    </main>
+
+
+
+    <footer>
+
+    </footer>
+
+
+    <script src="js/pokeAPI.js"></script>
+    
+</body>
+</html>

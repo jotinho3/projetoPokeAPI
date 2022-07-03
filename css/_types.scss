@@ -1,0 +1,334 @@
+.typeGrass {
+
+    &:hover {
+        border: 2px solid #9bdc28;
+        transition: border 0.5s ease-in-out;
+    }
+    
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #9bdc28;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+}
+
+
+
+.typeWater {
+
+    &:hover {
+        border: 2px solid #28a9dc;
+        transition: border 0.5s ease-in-out;
+    }
+    
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #0066ff;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+
+}
+
+
+
+
+.typeGhost {
+
+    &:hover {
+        border: 2px solid #4a3172;
+        transition: border 0.5s ease-in-out;
+    }
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #4a3172;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+    
+}
+
+
+.typePoison {
+
+    &:hover {
+        border: 2px solid #22004f;
+        transition: border 0.5s ease-in-out;
+    }
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #22004f;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+    
+}
+
+
+.typeIce{
+
+    &:hover {
+        border: 2px solid #00ffea;
+        transition: border 0.5s ease-in-out;
+    }
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #00ffea;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+    
+}
+
+.typeFire{
+
+    &:hover {
+        border: 2px solid #ff5e00;
+        transition: border 0.5s ease-in-out;
+    }
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #ff5e00;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+    
+}
+
+.typeNormal{
+
+    &:hover {
+        border: 2px solid #ffffff;
+        transition: border 0.5s ease-in-out;
+    }
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #ffffff;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+    
+}
+
+.typeBug{
+
+    &:hover {
+        border: 2px solid #335f21;
+        transition: border 0.5s ease-in-out;
+    }
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #335f21;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+    
+}
+
+.typeGround{
+
+    &:hover {
+        border: 2px solid #553e00;
+        transition: border 0.5s ease-in-out;
+    }
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #553e00;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+    
+}
+
+.typeSteel{
+
+    &:hover {
+        border: 2px solid #b1b1b1;
+        transition: border 0.5s ease-in-out;
+    }
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #b1b1b1;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+    
+}
+
+.typePsychic{
+
+    &:hover {
+        border: 2px solid #b3006e;
+        transition: border 0.5s ease-in-out;
+    }
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #b3006e;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+    
+}
+
+.typeDark{
+
+    &:hover {
+        border: 2px solid #070305;
+        transition: border 0.5s ease-in-out;
+    }
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #070305;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+    
+}
+
+
+.typeDark{
+
+    &:hover {
+        border: 2px solid #070305;
+        transition: border 0.5s ease-in-out;
+    }
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #070305;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+    
+}
+
+.typeElectric{
+
+    &:hover {
+        border: 2px solid #ffee00;
+        transition: border 0.5s ease-in-out;
+    }
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #ffee00;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+    
+}
+
+.typeRock{
+
+    &:hover {
+        border: 2px solid #494949;
+        transition: border 0.5s ease-in-out;
+    }
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #494949;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+    
+}
+
+.typeDragon{
+
+    &:hover {
+        border: 2px solid #534da5;
+        transition: border 0.5s ease-in-out;
+    }
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #534da5;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+    
+}
+
+
+.typeFighting{
+
+    &:hover {
+        border: 2px solid #a5574d;
+        transition: border 0.5s ease-in-out;
+    }
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #a5574d;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+    
+}
+
+.typeFairy{
+
+    &:hover {
+        border: 2px solid #ff90d4c4;
+        transition: border 0.5s ease-in-out;
+    }
+
+    &:hover:before{
+        clip-path: circle(150px at 100% -10%) ;
+        background-color: #ff90d4c4;
+        transition: all 0.5s ease-in-out ;
+        opacity: 1;
+       
+    
+      }
+    
+}
+
